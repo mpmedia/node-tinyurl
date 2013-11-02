@@ -27,13 +27,13 @@ models.Link=sequelize.define 'Link',
 
 # associations
 
-models.Url.belongsTo(Link)
+models.Url.belongsTo(models.Link)
 
-models.Visit.belongsTo(Link)
+models.Visit.belongsTo(models.Link)
 
-models.Link.hasOne(Url)
+models.Link.hasOne(models.Url)
 
-models.Link.hasMany(Visit)
+models.Link.hasMany(models.Visit)
         
 models.init = ->
     # synchroniser la base de donn�e

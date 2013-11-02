@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>{{ app.locals.title }}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet"
+		href="/vendor/bootstrap-3.0.0/dist/css/bootstrap.css" media="screen" />
+	</head>
+	<body>
+		<div class="container">
+			<h2>{% block content %} {{ content }} {% endblock %}</h2>
+			<p>
+				This is a bootstrap application
+			</p>
+		</div>
+	</body>
+</html>

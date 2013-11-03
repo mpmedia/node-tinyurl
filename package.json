@@ -1,18 +1,18 @@
 {
-    "name": "tinyurl-clone",
-    "description": "Tiny Url Clone",
-    "dependencies": {
-        "express": "3.4.X",
-        "pimple": "latest",
-        "sequelize": "latest",
-        "coffee-script":"latest",
-        "swig":"latest",
-        "consolidate":"latest",
-        "mysql":"2.0.X",
-        "async":"latest"
-    },
-    "devDependencies":{
-        "mocha":"latest",
-        "assert":"latest"
-    }
+	"name": "tinyurl-clone",
+	"description": "Tiny Url Clone",
+	"dependencies": {
+		"express": "3.4.X",
+		"pimple": "latest",
+		"sequelize": "latest",
+		"coffee-script": "latest",
+		"swig": "latest",
+		"promise": "latest",
+		"mysql": "2.0.X",
+		"async": "latest"
+	},
+	"devDependencies": {
+		"mocha": "latest",
+		"assert": "latest"
+	}
 }

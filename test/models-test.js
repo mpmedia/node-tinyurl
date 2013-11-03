@@ -4,12 +4,7 @@ require("coffee-script");
 
 assert = require("assert");
 async = require("async");
-
-/**
- * Application models
- * @type {Object}
- */
-models = require(__dirname + "/../src/models");
+models = require(__dirname + "/../lib/models");
 
 beforeEach(function(done) {
     models.init().then(function() {

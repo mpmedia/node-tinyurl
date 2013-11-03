@@ -1,8 +1,8 @@
 require("coffee-script");
 var app,models;
 
-models=require('./src/models');
-app=require("./src/app");
+models=require('./lib/models');
+app=require("./lib/app");
 
 models.init();
 
